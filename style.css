@@ -3,17 +3,19 @@
   padding: 0;
 }
 :root {
+  --white: #ffffffb6;
   --pushLeft: 150px;
   --lilpad: 10px;
   --storpad: 30px;
-  --conWidth: 200px;
+  --conWidth: 300px;
 }
-h2 {
+
+h2,
+h3 {
   padding: var(--lilpad);
 }
 /* Header section */
-header {
-}
+
 #burgermenu {
   display: none;
   width: var(--pushLeft);
@@ -36,22 +38,26 @@ li {
   text-decoration: none;
 }
 /* Header section */
-
+#h1 {
+  display: inline;
+  margin: var(--storpad) auto 0;
+}
 #theMain {
   background-image: url(imgz/face.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-width: 100vw;
-  min-height: 200vh;
+  max-width: 100vw;
+  min-height: 100vh;
   display: grid;
+  grid-template-columns: 1fr;
   grid-row-gap: var(--lilpad);
 }
 #sec1 {
   margin-top: var(--storpad);
 }
 .sectionz {
-  background-color: grey;
+  background-color: var(--white);
   margin: 0 auto;
 }
 
@@ -60,6 +66,10 @@ img {
   padding: var(--lilpad);
 }
 .videoz {
+  padding: var(--lilpad);
+  width: var(--conWidth);
+}
+.youVid {
   padding: var(--lilpad);
   width: var(--conWidth);
 }
