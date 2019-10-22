@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", start);
 
 function start() {}
-const videos = document.querySelectorAll("video");
+const videos = document.querySelectorAll(".videoz");
 document.getElementById("burger").addEventListener("click", openSidebar);
 
 function openSidebar() {

@@ -45,6 +45,7 @@ li {
   min-width: 100vw;
   min-height: 200vh;
   display: grid;
+  grid-row-gap: var(--lilpad);
 }
 #sec1 {
   margin-top: var(--storpad);
