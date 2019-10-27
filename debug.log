@@ -1,0 +1,1 @@
+[1024/221930.484:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: Længden af den angivne informationspost passer ikke med den krævede længde for denne klasse af information. (0xc0000004)
